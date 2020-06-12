@@ -1,0 +1,222 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: black;
+  height: 40px;
+}
+
+body {
+  background-color: #121212;
+  color: aliceblue;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+.nav-link,
+.navbar-toggler {
+  color: white !important;
+}
+
+.nav-link.active {
+  color: pink !important;
+}
+
+#home-section {
+  background: url(../imgs/splash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 800px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#about-section {
+  min-height: 800px;
+  padding-top: 120px;
+}
+
+#education-section {
+  background: url(../imgs/education-section-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#education-section .dark-overlay1 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.check-exp {
+  font-size: medium;
+}
+@media (max-width: 760px) {
+  .card {
+    margin-right: 40px;
+  }
+  .icon-exp {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1121px) {
+}
+.card {
+  background-color: #302e2e;
+  border: black solid 2px;
+}
+
+#education-section .card:hover {
+  background: black;
+  color: aliceblue;
+}
+
+#skills-section {
+  min-height: 800px;
+}
+
+.social-link a {
+  color: white;
+  padding: 10px;
+}
+
+.social-link a:hover {
+  color: pink;
+}
+
+#my-work-section .btn {
+  background-color: pink;
+  color: black;
+  border: 1px solid black;
+}
+
+#my-work-section .btn:hover {
+  background-color: rgb(219, 124, 140);
+}
+
+#contact-section .btn {
+  color: pink;
+  border: 1px solid pink;
+}
+
+#contact-section .btn:hover {
+  background-color: rgb(219, 124, 140);
+  border: 3px solid black;
+  color: white;
+}
+
+.skill-item {
+  display: inline-block;
+  border: 2px solid #504e70;
+  text-align: center;
+  padding: 20px;
+  list-style: none;
+  color: white;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  font-size: 14px;
+  line-height: 5.5;
+
+  margin: 15px 15px 15px 15px;
+}
+
+#contact-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#contact-section .dark-overlay2 {
+  min-height: 700px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+input {
+  color: white;
+  outline: 0;
+  background: 0 0;
+  border-width: 0 0 2px;
+  border-color: pink;
+}
+input:focus {
+}
+
+.resume-section {
+  background-color: #302e2e;
+  min-height: 100px;
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  padding: 10px;
+  color: #121212;
+  border-radius: 50%;
+}
+
+.block-btn:focus,
+.block-btn:hover {
+  transition: all 0.3s ease;
+}
+.block-btn {
+  display: block;
+  text-align: center;
+  color: white;
+}
+.block-btn h3 {
+  display: block;
+}
+
+.block-btn:hover h3 {
+  display: none;
+}
+
+.block-btn img {
+  display: none;
+}
+
+.block-btn:hover img {
+  display: block;
+}
+.scroll-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+  color: aliceblue;
+}
+/* ICON SCROLL */
+.scroll-icon:hover {
+  color: pink;
+}
+
+.seperator {
+  display: block;
+  background-color: pink;
+  width: 200px;
+  height: 3px;
+  margin-left: 70px;
+  margin-top: -30px;
+}
+
+.sub-headers {
+  padding-bottom: 10px;
+  border-bottom: 3px solid pink;
+  line-height: 48px;
+}
